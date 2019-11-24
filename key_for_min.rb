@@ -1,5 +1,5 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
-ikea.collectdo
+ikea.collectdo|chair, price|
 # => :chair
  
 veggies = {"apple" => -45, "banana" => -44.5, "carrot" => -44.9}
