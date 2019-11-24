@@ -3,5 +3,6 @@ ikea.collect do |name, price|
     price * 7
  
 veggies = {"apple" => -45, "banana" => -44.5, "carrot" => -44.9}
-veggies.collect do 
-# => "apple"
+veggies.collect do |veggies, num|
+    num
+end
